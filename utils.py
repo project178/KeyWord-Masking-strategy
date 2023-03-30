@@ -4,15 +4,11 @@ import re
 import datetime
 import threading
 from typing import List, Iterable, Union
-os.chdir("/mnt/beegfs/projects/beyond/draft")
 
-#ml
+
 from tqdm.auto import tqdm
 import torch
 from transformers import AutoTokenizer, AutoConfig, AdamW
-
-#progress
-import telebot
 import git
 
 
